@@ -41,9 +41,26 @@
       font-size: 0.95rem;
       color: #333;
     }
+    .back-button {
+      display: block;
+      width: fit-content;
+      margin: 40px auto 0;
+      padding: 12px 24px;
+      background-color: #004080;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+      text-align: center;
+    }
+    .back-button:hover {
+      background-color: #0066cc;
+    }
   </style>
 </head>
 <body>
+  <header>
     <h1>Professores</h1>
   </header>
 
@@ -55,6 +72,7 @@
       <p>Disciplina: Sociologia</p>
     </div>
 
+ 
     <!-- Professor 2 -->
     <div class="card">
       <img src="professores/prof2.jpg" alt="Professor 2">
@@ -111,12 +129,14 @@
       <p>Disciplina: Inglês</p>
     </div>
 
-    <!-- Professor 10 -->
     <div class="card">
       <img src="professores/prof10.jpg" alt="Professor 10">
       <h3>Prof. Nome 10</h3>
       <p>Disciplina: Educação Física</p>
     </div>
   </main>
+
+  <!-- Botão Voltar ao Menu -->
+  <a href="anuario.html" class="back-button">← Voltar ao Menu</a>
 </body>
 </html>
